@@ -1,0 +1,89 @@
+#change{
+    padding: 20px 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 3);
+    text-align: center;
+    margin: 100px auto;
+    font-family: Arial, snas-serif;
+    width: 300px;
+    
+}
+body{
+    background: linear-gradient(to right, black, grey);
+}
+#header{
+    color: red;
+    margin-bottom: 30px;
+}
+#button{
+    margin-top: 30px;
+
+}
+#button button{
+    background-color: black;
+    color: white ;
+    padding: 10px 50px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.5s ease
+}
+#button button:hover{
+    background: red;
+    transform: translateY(-3px);
+    box-shadow: 0px 6px 15px black;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-size: 16px;
+}
+input:focus{
+    border-bottom: 2px solid red;
+}
+.camp{
+    position: relative;
+    margin-bottom: 30px;
+}
+.camp input{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid grey;
+    padding: 10px 0;
+    font-size: 16px;
+    outline: none;
+}
+.camp label{
+    position: absolute;
+    left: 0;
+    top: 10px;
+    color: grey;
+    transition: 0.3s;
+}
+
+.camp input:focus + label,
+.camp input:valid + label{
+    top: -15px;
+    font-size: 12px;
+    color: grey;
+}
+    
+input{
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-size: 16px;
+}
+#email{
+    text-align: center;
+}

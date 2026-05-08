@@ -1,0 +1,43 @@
+#header{
+    color: red;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+}
+#Welldone{
+   width: 300px;
+    margin: 100px auto;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 1px 4px 10px rgba(0,0,0,0.3);
+    text-align: center;
+    color: black;
+}
+body{
+
+    background: linear-gradient(to right, grey, black);
+}
+#button{
+    
+    margin-top: 30px;
+
+}
+#button button{
+    background-color: black;
+    color: white ;
+    padding: 10px 50px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.5s ease
+}
+#button button:hover{
+    background: red;
+    transform: translateY(-3px);
+    box-shadow: 0px 6px 15px black;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
